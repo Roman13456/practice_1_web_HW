@@ -1,0 +1,86 @@
+.leftBanner{
+    margin-right: 15px;
+    background-color: pink;
+    max-width: 28%;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+h1, h2, article{
+    word-break: break-word;
+}
+.h-100{
+    height: 100%;
+}
+.w-100{
+    width: 100%;
+}
+.bannersContainer{
+    min-height: 80%;
+}
+.landing{
+    height: 100vh;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+article img{
+    /* max-width: 100%;
+    width: 100%; */
+    display: block;
+    max-width: 100%;
+    max-height: 200px;
+    margin: auto;
+}
+header{
+    height: 25vh;
+    background-color: lightblue;
+}
+header h1{
+    margin: 0;
+}
+.rightBanner{
+    max-width: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+article{
+    max-height: 75%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    
+    display: flex;
+    height: 20%;
+}
+footer .leftFooter{
+    margin-right: 15px;
+    background-color: lightgray;
+    max-width: 28%;
+    width: 100%;
+}
+footer .rightFooter{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.rightBanner header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightBanner h1{
+    padding-left: 20px;
+}
+.rightFooter h2{
+    padding-right: 20px;
+}
+.logo{
+    width: 60px;
+    padding-right: 20px;
+}
